@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+/* Palette: https://colorhunt.co/palette/fdf0d1ac7d8885586f643843 */
+/* Fall color palette: https://colorhunt.co/palette/43766cf8fae5b1947076453b */
+body {
+	background-color: #43766C;
+	color: #F8FAE5;
+}
+nav {
+	background-color: #F8FAE5;
+}
+a.nav-link {
+	color: #76453B !important;
+}
+a.nav-link:hover {
+	color: #B19470 !important;
+}
+.projects h2 {
+	text-align: center;
+}
+.card {
+	background-color: #F8FAE5;
+	color: #76453B;
+}
+#projects div.row {
+	justify-content: center;
+}
+.project_label {
+	text-align: center;
+}
+.project_image img {
+	object-fit: cover;
+}
+#about ul li {
+	background-color: #F8FAE5;
+	border-color: #B19470;
+}
+#about ul li:hover {
+	background-color: #76453B;
+	color: #B19470;
+}
